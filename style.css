@@ -1,0 +1,8 @@
+.testclass {
+    display: block;         /* Ensures the image behaves like a block element */
+    max-width: 250px;       /* Set maximum width */
+    max-height: 200px;      /* Set maximum height */
+    width: auto;            /* Allow scaling based on max-width */
+    height: 120;           /* Allow scaling based on max-height */
+    object-fit: contain;    /* Maintain aspect ratio within the dimensions */
+}
