@@ -18,8 +18,7 @@ Link to toutorial video: https://www.youtube.com/watch?v=sgmiIkoIt4I
    Should be working
 
  Navigating code:
-   Image list:
-     To add or remove images from list 
-        Navigate to the images folder and add or delete the images
-        New images must have the .jpg postfix
-        Name image and add it to the list of image names at the top of content.js (dont include  the .jpg, it will automatically be added)\
+    To add or remove images from list 
+      Navigate to the images folder and add or delete the images
+      New images must have the .jpg postfix
+      Name image and add it to the list of image names at the top of content.js (dont include  the .jpg, it will automatically be added)
