@@ -1,4 +1,4 @@
-Link to toutorial video: https://www.youtube.com/watch?v=sgmiIkoIt4I
+Link to toutorial video: 
 
  What it does
    Overlays funny images over top of google chrome images or youtube thumbnails
@@ -21,4 +21,4 @@ Link to toutorial video: https://www.youtube.com/watch?v=sgmiIkoIt4I
     To add or remove images from list 
       Navigate to the images folder and add or delete the images
       New images must have the .jpg postfix
-      Name image and add it to the list of image names at the top of content.js (dont include  the .jpg, it will automatically be added)
+      Name image and add it to the list of image names at the top of content.js (dont include  the .jpg, it will automatically be added) 
