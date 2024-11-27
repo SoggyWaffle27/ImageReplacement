@@ -1,5 +1,3 @@
-//Add names of images added to Image list. 
-//If you add images to list, make sure an image is added to the Images folder with the .jpg postfix
 const imageFiles = [
   "Ack", "Bama", "Bart", "Bat", "Biden", "Biden2", "Blue", "Burns", "Cap", "Cap2", 
   "Case", "Case2", "Case3", "Chad", "Chess", "Chungus", "CR", "Crab", "Crap", "Doof", 
@@ -12,8 +10,6 @@ const imageFiles = [
   "Rock1", "Sam", "Shrek", "Simp", "Simp2", "Simp3", "Simp4", "Simp5", "Soy", "Squid", 
   "Stalin", "Tele", "Tzu", "Vader", "Vader2", "Vader3", "Vegi", "Watto", "Yoda", "Yoda2"
 ];
-
-
 const MAX_WIDTH = 20; 
 const MAX_HEIGHT = 200; 
 
@@ -34,7 +30,6 @@ function overlayImages() {
     if (img.dataset.overlayAdded) return;
 
     // Adjust offset based on YouTube-specific class
-    // This determines if the image is a yt thumbnail, which requires different formatting than a google image
     if (img.classList.contains('yt-core-image')) {
       offset = 150;
     } else {
